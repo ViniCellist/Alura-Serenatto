@@ -13,6 +13,13 @@ input[type=checkbox]:focus {
   outline: none;
 }
 
+input[type=range]::-webkit-slider-thumb {
+  background-color: var(--marrom-claro);
+  border-color: var(--marrom-claro);
+  box-shadow: none;
+  outline: none;
+}
+
 .banner-1 {
   background-image: url(./assets/banner-1.png);
 }
